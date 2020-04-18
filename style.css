@@ -1,9 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+@font-face{
+  font-family: azonix;
+  src: url(font/Azonix-1VB0.otf)
+}
+
 #myVideo {
     -webkit-filter: brightness(40%);
-    -webkit-animation: ;
     position: fixed;
     right: 0;
     bottom: 0;
     min-width: 100%;
     min-height: 100%;
   }
+.content_header {    
+    vertical-align: super;
+    position: fixed;
+    top: 0;
+    background: rgba(0, 0, 0, 0);
+    color: #f1f1f1;
+    width: 100%;
+   
+  }
+
+.content_main{
+  position: absolute;
+  right: 25%;
+  top: 30%;
+  background: rgba(0, 0, 0, );
+  color: #f1f1f1;
+  width: 50%;
+  height: 50%;
+  padding: 2px;
+}
+
+.iframe{
+    vertical-align: 100%;
+}
+
+.content_footer {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+
+  h1{
+    font-family: azonix;
+  }
+
+  p{
+    font-size: medium;
+    font-family: 'Orbitron', sans-serif;
+  }
+
+  .fa {
+    padding: 5px;
+    font-size: 50px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+
+.left-icons{
+  display: inline-block;
+  text-align: left;
+}
+
+.right-icons{
+  position: absolute;
+  right: 30px;
+  display: inline-block;
+  text-align: right;
+}
+
+
